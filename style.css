@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "FedorovskUnicode";
+    font-style: normal;
+    font-weight: 400;
+    src: 
+        local("FedorovskUnicode.woff") format("woff"),
+        url("/fonts/FedorovskUnicode.woff") format("woff");
+ }
+
+ @font-face {
+    font-family: "PomorskyUnicode";
+    font-style: normal;
+    font-weight: 400;
+    src: 
+        local("PomorskyUnicode.woff") format("woff"),
+        url("/fonts/PomorskyUnicode.woff") format("woff");
+ }
+
+ body {
+     font-family: 'FedorovskUnicodeTTMedium';
+     font-weight: 400;
+     background-color: #000000;
+     color: #ffffff;
+ }
+
+ .img {
+     width: 100%;
+     height: 400px;
+     background-image: url("img/Lastik-2.PNG");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .page-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 1;
+    font-weight: 400;
+ }
+ .page-footer a {
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 1;
+    text-decoration: none;
+ }
+ .title {
+    font-family: 'FedorovskUnicodeTTMedium';
+     text-align: center;
+     font-weight: 400;
+     font-size: 45px;
+ }
+
+ .start-date {
+    font-family: 'FedorovskUnicodeTTMedium';
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+ .start-date span {
+     display: block;
+ }
