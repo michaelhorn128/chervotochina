@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "FedorovskUnicode";
+    font-family: "Fedorovsk Unicode";
     font-style: normal;
     font-weight: 400;
     src: 
-        local("FedorovskUnicode.woff") format("woff"),
-        url("/fonts/FedorovskUnicode.woff") format("woff");
+        local("FedorovskUnicode.otf") format("opentype"),
+        url("/fonts/FedorovskUnicode.otf") format("opentype");
  }
 
  @font-face {
@@ -12,12 +12,12 @@
     font-style: normal;
     font-weight: 400;
     src: 
-        local("PomorskyUnicode.woff") format("woff"),
-        url("/fonts/PomorskyUnicode.woff") format("woff");
+        local("PomorskyUnicode.otf") format("opentype"),
+        url("/fonts/PomorskyUnicode.otf") format("opentype");
  }
 
  body {
-     font-family: 'FedorovskUnicodeTTMedium';
+     font-family: 'Fedorovsk Unicode';
      font-weight: 400;
      background-color: #000000;
      color: #ffffff;
@@ -48,14 +48,14 @@
     text-decoration: none;
  }
  .title {
-    font-family: 'FedorovskUnicodeTTMedium';
+    font-family: 'Fedorovsk Unicode';
      text-align: center;
      font-weight: 400;
      font-size: 45px;
  }
 
  .start-date {
-    font-family: 'FedorovskUnicodeTTMedium';
+    font-family: 'Fedorovsk Unicode';
     text-align: center;
     font-weight: 400;
     font-size: 30px;
