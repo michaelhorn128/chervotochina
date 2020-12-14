@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 400;
     src: 
-        local("FedorovskUnicode.otf") format("opentype"),
-        url("/fonts/FedorovskUnicode.otf") format("opentype");
+        local("FedorovskUnicode.woff") format("opentype"),
+        url("/fonts/FedorovskUnicode.woff") format("opentype");
  }
 
  @font-face {
@@ -12,8 +12,8 @@
     font-style: normal;
     font-weight: 400;
     src: 
-        local("PomorskyUnicode.otf") format("opentype"),
-        url("/fonts/PomorskyUnicode.otf") format("opentype");
+        local("PomorskyUnicode.woff") format("opentype"),
+        url("/fonts/PomorskyUnicode.woff") format("opentype");
  }
 
  body {
