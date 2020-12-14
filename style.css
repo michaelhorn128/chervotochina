@@ -7,7 +7,7 @@
         url("/fonts/fedorovskunicode-webfont.woff") format("woff");
  } */
 
- @font-face {
+ /* @font-face {
     font-family: 'Fedorovsk Unicode';
     src: url('FedorovskUnicode.eot');
     src: local('Fedorovsk Unicode'), local('FedorovskUnicode'),
@@ -17,7 +17,7 @@
         url('FedorovskUnicode.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-}
+} */
 
 
  @font-face {
