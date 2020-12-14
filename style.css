@@ -3,8 +3,8 @@
     font-style: normal;
     font-weight: 400;
     src: 
-        local("FedorovskUnicode.woff") format("woff"),
-        url("/fonts/FedorovskUnicode.woff") format("woff");
+        url("/fonts/fedorovskunicode-webfont.woff2") format("woff2"),
+        url("/fonts/fedorovskunicode-webfont.woff") format("woff");
  }
 
  @font-face {
