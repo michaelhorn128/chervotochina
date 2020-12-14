@@ -1,11 +1,24 @@
-@font-face {
+/* @font-face {
     font-family: "Fedorovsk Unicode";
     font-style: normal;
     font-weight: 400;
     src: 
         url("/fonts/fedorovskunicode-webfont.woff2") format("woff2"),
         url("/fonts/fedorovskunicode-webfont.woff") format("woff");
- }
+ } */
+
+ @font-face {
+    font-family: 'Fedorovsk Unicode';
+    src: url('FedorovskUnicode.eot');
+    src: local('Fedorovsk Unicode'), local('FedorovskUnicode'),
+        url('FedorovskUnicode.eot?#iefix') format('embedded-opentype'),
+        url('FedorovskUnicode.woff2') format('woff2'),
+        url('FedorovskUnicode.woff') format('woff'),
+        url('FedorovskUnicode.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 
  @font-face {
     font-family: "PomorskyUnicode";
